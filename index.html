@@ -1,0 +1,190 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Ros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d6f22da2ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> <!-- Tuve problemas con el funcionamiento de bootstrap por CDN, así que lo instalé por descarga para evitar problemas en el desarrollo -->
+    <link rel="stylesheet" href="assets/css/estilo.css"> 
+
+</head>
+<body>
+
+    <!-- Inicio del navbar -->
+
+    <nav class="navbar navbar-expand-lg fondonavbar">
+        <div class="container"> <!-- Si se le quita -fluid al container-fluid la caja termina teniendo padding automático -->
+          <a class="navbar-brand text-white" href="#"><img class="img-fluid" src="assets/img/logo.png" alt="Olivia Ros"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Acerca de mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+      <!-- Fin del navbar -->
+
+      <!-- Header -->
+    <header>
+    <section class="text-white text-end py-5">
+      <h1 class="ml-5 mt-3 pt-5 display-1 fw-bold">Comidas del fin<br>del mundo</h1>
+      <p class="fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus<br>blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet <br>augue nec aliquet sagittis.</p>
+        <div id="botones-header" class="mt-4">  <!-- Botones del Header -->
+            <button type="button" class="btn btn-outline-info text-white">Trabajos</button>
+            <button type="button" class="btn btn-info text-white">Contacto</button>
+        </div>    
+    </section>
+
+    </header>
+    <!-- Fin del Header  -->
+
+    <!-- Sección "Acerca de mí" -->
+
+    <section>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-xs-12 mx-auto text-center acercademi my-1">
+                    <h1 class="display-4">Acerca de mí</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus <div class="d-none d-sm-block">blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</div></p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-xs-12 col-md-4">
+                    <div class="card py-4 border-0 mx-auto" style="width: 18rem;">
+                        <i class="fas fa-camera-alt icono"></i>
+                        <div class="card-body text-center">
+                        <h5 class="card-title pt-3">Fotógrafa de comida</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="card py-4 border-0 mx-auto" style="width: 18rem;">
+                        <i class="fa-solid fa-bullhorn icono"></i>
+                        <div class="card-body text-center">
+                        <h5 class="card-title pt-3">Crítica culinaria</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="card py-4 border-0 mx-auto" style="width: 18rem;">
+                        <i class="far fa-map icono"></i>
+                        <div class="card-body text-center">
+                        <h5 class="card-title pt-3">Bloggera de viajes</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fin de sección "Acerca de mí" -->
+
+    <!-- Sección de las Cards -->
+
+    <section class="fondocards">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 my-3">
+            <h1 class="display-4 pt-5 pb-3 text-center fw-bold text-white">Mis trabajos</h1>
+          </div>  
+        </div>
+      </div>
+      
+      <div class="row mt-3">
+        <div class="col-xs-12 col-md-4 my-4">
+            <div class="card pb-4 border-0 mx-auto rounded-0" style="width: 22rem;">
+                <img class="img-fluid" src="assets/img/card-1.jpg" alt="karne" style=" height: 13.5rem;">
+                <div class="card-body text-center">
+                <h5 class="card-title pt-3">Asado en la Patagonia</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                <button type="button" class="btn btn-outline-info">Ver más</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 my-4">
+            <div class="card pb-4 border-0 mx-auto rounded-0" style="width: 22rem;">
+                <img class="img-fluid" src="assets/img/card-2.jpg" alt="Papasquericooooo" style=" height: 13.5rem;">
+                <div class="card-body text-center">
+                <h5 class="card-title pt-3">Papas del fin del mundo</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                <button type="button" class="btn btn-outline-info">Ver más</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 my-4">
+            <div class="card pb-4 border-0 mx-auto rounded-0" style="width: 22rem;">
+                <img class="img-fluid" src="assets/img/card-3.jpg" alt="Jureltiposalmón" style=" height: 13.5rem;">
+                <div class="card-body text-center">
+                <h5 class="card-title pt-3">Salmones de Alaska</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                <button type="button" class="btn btn-outline-info">Ver más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>    
+
+    <section class="fondoexclusivodecelular d-block d-sm-none"></section> <!-- Aquí el fondo era insuficiente para la versión móvil, y si añadía píxeles se aumentaban los del navegador por pantallas grandes. Como faltaba color de fondo sólo en la sección para móviles creé una sección con background-color que sólo fuera visible para xs -->
+
+    <!-- Fin de sección de las Cards -->
+
+    <!-- Sección de formulario -->
+
+    <section class="Contacto my-5 container">
+      <h1 class="fw-bold display-5 text-center">Contáctame</h1>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</p>
+
+      
+      <div class="mb-3">  <!-- Form -->
+        <label for="exampleFormControlTextarea1" class="form-label">Nombre</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Nombre" rows="1"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe aquí tu mensaje" rows="3"></textarea>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end"> <!-- Botón responsivo con alineación a la derecha en navegador de escritorio -->
+          <button type="button" class="btn btn-info text-white mt-3">Enviar</button>
+        </div>
+      </div> 
+              <!-- Fin del Form -->
+    </section>
+
+    <!-- Fin de sección de formulario -->
+
+    <!-- Footer -->
+
+    <footer class="bg-black fw-normal text-white text-center pt-4 px-5">
+      <p>Olivia Ros 2019. Todos los derechos reservados.</p>
+    </footer>
+
+    <footer class="footer-responsivo d-block d-sm-none bg-black"></footer> <!-- Footer adicional para llevar espacio faltante de la versión de móviles -->
+
+    <!-- Fin del Footer -->
+
+    <script src="assets/js/bootstrap.min.js"></script> <!-- Instalación de bootstrap por descarga -->
+</body>
+</html>
